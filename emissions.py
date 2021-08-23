@@ -1,10 +1,10 @@
 import pickle
 import streamlit as st
-from azureml import train.automl
+# import azureml.train.automl
 
 # loading the trained model
-pickle_in = open('forecaster.pkl', 'rb') 
-forecaster = pickle.load(pickle_in)
+# pickle_in = open('forecaster.pkl', 'rb') 
+# forecaster = pickle.load(pickle_in)
 
 # Defining country options
 countries = ["Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", 
