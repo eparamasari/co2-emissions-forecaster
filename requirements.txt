@@ -1,4 +1,4 @@
-python=3.6.2
+python==3.6.2
 streamlit==0.87.0
 azureml-train-automl-runtime==1.33.0
 inference-schema
