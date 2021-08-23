@@ -1,0 +1,2 @@
+streamlit==0.87.0
+azureml==0.2.7
