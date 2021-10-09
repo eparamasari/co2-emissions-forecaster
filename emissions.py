@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-from azureml.train import automl
+import azureml
 
 # loading the trained model
 pickle_in = open('forecaster.pkl', 'rb') 
